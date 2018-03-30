@@ -1,0 +1,41 @@
+Author: 170009629
+Date: 10th November 2017
+
+
+
+<BASIC REQUIREMENTS>
+
+All basic requirements were fully completed. The Server accepts requests from the client as desired, and responds accordingly.
+
+
+
+
+<ENHANCEMENTS>
+
+All suggested enhancements were completed. They are listed as follows:
+
+1)	The server is able to return images (including moving GIFs), not only when embedded in the HTML (like page2), but also when requesting the raw image file (Note the howl.jpg is also able to resize with the window). The following list of files have been added to the root folder and can all be requested by the client:
+		
+		- beer.jpg
+		- tp_it.jpg
+		- howl.jpg
+		- FF7.png
+		- prisoner.png
+		- networking.gif
+		- office.gif
+		- SW.gif
+		
+		
+2)a) Multithreading was implemented to handle multiple client requests. Pre-made threadpools (like in Execute class) were researched but it was decided to implement my own threading. I know the threadpools would have been more efficient, but for the small number of concurrent threads, it didn't seem entirely necessary (although yes for bigger servers). Also I had already implemented my own threading. In mine, I track the number of live threads at any one time, and don't spin up new ones unless the limit is not exceeded. To test it worked, I simulated complex (time-consuming) responses by inserting an infinite while loop into the response process. I then checked using multiple browsers that when I tried to make more requests than the limit number (while the previous threads hadn't closed), that the server indeed did make the client wait while the threadcount was at the limit.
+	
+  b) Synchronisation was included, as all threads would have access to the same log file. Therefore I implemented a Synchronised method for passing information to be logged, ensuring they wouldn't attempt to write to it simultaneously.
+  
+  
+3)	As just mentioned, Logging was implemented. The log file tracks the date/time of a request, the info in the request, and the response header. It is always added to (not overwritten) to ensure a log is kept from the first running of the server to present. To reset the file, just delete it as a new one will be created on the next run.
+	
+	
+4)	I added in an additional method that the Server was capable to support. This was the OPTIONS method, which is called by the client (instead of GET or HEAD) when they do not know what methods the client supports. What is returned is a list of the supported methods, so the user on the client side will know the restrictions by which they are allowed to proceed.
+	
+	
+	
+  

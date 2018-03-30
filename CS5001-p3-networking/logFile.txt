@@ -1,0 +1,231 @@
+|||___DATE/TIME OF CLIENT REQUEST:  10/11/2017 20:40:30___|||
+
+|----CLIENT REQUEST----|
+
+GET /office.gif HTTP/1.1
+Host: localhost:12346
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (X11; Fedora; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36
+Upgrade-Insecure-Requests: 1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+
+|----SERVER RESPONSE----|
+
+HTTP/1.1 200 OK
+Server: My Java Server
+Content-Type: image/gif
+Content-Length: 954210
+
+
+
+
+|||___DATE/TIME OF CLIENT REQUEST:  10/11/2017 20:40:39___|||
+
+|----CLIENT REQUEST----|
+
+GET /page2.html HTTP/1.1
+Host: localhost:12346
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (X11; Fedora; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36
+Upgrade-Insecure-Requests: 1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+
+|----SERVER RESPONSE----|
+
+HTTP/1.1 200 OK
+Server: My Java Server
+Content-Type: text/html
+Content-Length: 805
+
+
+
+
+|||___DATE/TIME OF CLIENT REQUEST:  10/11/2017 20:40:39___|||
+
+|----CLIENT REQUEST----|
+
+GET /beer.jpg HTTP/1.1
+Host: localhost:12346
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (X11; Fedora; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: http://localhost:12346/page2.html
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+
+|----SERVER RESPONSE----|
+
+HTTP/1.1 200 OK
+Server: My Java Server
+Content-Type: image/jpg
+Content-Length: 24552
+
+
+
+
+|||___DATE/TIME OF CLIENT REQUEST:  10/11/2017 20:40:39___|||
+
+|----CLIENT REQUEST----|
+
+GET /tp_it.jpg HTTP/1.1
+Host: localhost:12346
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (X11; Fedora; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: http://localhost:12346/page2.html
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+
+|----SERVER RESPONSE----|
+
+HTTP/1.1 200 OK
+Server: My Java Server
+Content-Type: image/jpg
+Content-Length: 36384
+
+
+
+
+|||___DATE/TIME OF CLIENT REQUEST:  10/11/2017 20:40:49___|||
+
+|----CLIENT REQUEST----|
+
+GET /networking.gif HTTP/1.1
+Host: localhost:12346
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (X11; Fedora; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36
+Upgrade-Insecure-Requests: 1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+
+|----SERVER RESPONSE----|
+
+HTTP/1.1 200 OK
+Server: My Java Server
+Content-Type: image/gif
+Content-Length: 2330863
+
+
+
+
+|||___DATE/TIME OF CLIENT REQUEST:  10/11/2017 20:43:14___|||
+
+|----CLIENT REQUEST----|
+
+GET /networking.gif HTTP/1.1
+Host: localhost:12346
+Connection: keep-alive
+Cache-Control: max-age=0
+User-Agent: Mozilla/5.0 (X11; Fedora; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36
+Upgrade-Insecure-Requests: 1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+
+|----SERVER RESPONSE----|
+
+HTTP/1.1 200 OK
+Server: My Java Server
+Content-Type: image/gif
+Content-Length: 2330863
+
+
+
+
+|||___DATE/TIME OF CLIENT REQUEST:  10/11/2017 20:43:24___|||
+
+|----CLIENT REQUEST----|
+
+GET /page2.html HTTP/1.1
+Host: localhost:12346
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (X11; Fedora; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36
+Upgrade-Insecure-Requests: 1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+
+|----SERVER RESPONSE----|
+
+HTTP/1.1 200 OK
+Server: My Java Server
+Content-Type: text/html
+Content-Length: 805
+
+
+
+
+|||___DATE/TIME OF CLIENT REQUEST:  10/11/2017 20:43:24___|||
+
+|----CLIENT REQUEST----|
+
+GET /tp_it.jpg HTTP/1.1
+Host: localhost:12346
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (X11; Fedora; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: http://localhost:12346/page2.html
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+
+|----SERVER RESPONSE----|
+
+HTTP/1.1 200 OK
+Server: My Java Server
+Content-Type: image/jpg
+Content-Length: 36384
+
+
+
+
+|||___DATE/TIME OF CLIENT REQUEST:  10/11/2017 20:43:24___|||
+
+|----CLIENT REQUEST----|
+
+GET /beer.jpg HTTP/1.1
+Host: localhost:12346
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (X11; Fedora; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: http://localhost:12346/page2.html
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+
+|----SERVER RESPONSE----|
+
+HTTP/1.1 200 OK
+Server: My Java Server
+Content-Type: image/jpg
+Content-Length: 24552
+
+
+
+
+|||___DATE/TIME OF CLIENT REQUEST:  10/11/2017 20:43:38___|||
+
+|----CLIENT REQUEST----|
+
+GET /howl.jpg HTTP/1.1
+Host: localhost:12346
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (X11; Fedora; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36
+Upgrade-Insecure-Requests: 1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+
+|----SERVER RESPONSE----|
+
+HTTP/1.1 200 OK
+Server: My Java Server
+Content-Type: image/jpg
+Content-Length: 331011
+
+
+
+
